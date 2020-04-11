@@ -6,7 +6,8 @@ Team members:
 Liu Lihua (3035690593)
 Jiang Xingjian ()
 
-A game description with basic game rules
+A game description whith game rule:
+This game is an RPG game, in which player will act as an adventurer and try to defeat the monsters during the adventure.Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before the adventure, player can choose his skill from a given skill list. During the battle, player and monster will take turns taking action. In player’s turn, player have 2 choices: normal attack (cause a small amount of damage and won’t consume MP), using skill (consume MP, will cause lots of damage or other special effect). After the battle, player will get EXP and choose to recover part of HP or MP. If player’s HP become less than 0, the adventure will end as a failure. After some battles, the adventure will end as a success.
 
 A list of features / functions to implement:
 
