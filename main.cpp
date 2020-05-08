@@ -1,14 +1,24 @@
 #include <iostream>
-#include <fstream>
+#include <string>
 #include"functions.cpp"
 using namespace std;
 int main(){
-    char name[20];
-    cout<<"Welcome! Please enter your name (shorter than 20 characters):";
-    cin>>name;
-    ofstream fout;
-    fout.open("player.txt");
-    fout << name <<" "<<500<<" "<<0<<endl;
-    fout.close();
+    string again;
+    start();
+    cout<<"Play again (1. Yes 2. No)? ";
+    cin>>again;
+    while(again!="1"&&again!="2"){
+        cout<<"Please enter 1 or 2 (1. Yes 2. No): ";
+        cin>>again;
+    }
+    while(again=="1"){
+        start();
+        cout<<"Play again (1. Yes 2. No)? ";
+        cin>>again;
+        while(again!="1"&&again!="2"){
+            cout<<"Please enter 1 or 2 (1. Yes 2. No): ";
+            cin>>again;
+        }
+    }
     return 0;
 }
