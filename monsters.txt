@@ -1,1 +1,1 @@
-5 20 50 100 250 500
+5 Skeleton 20 Orc 50 Griffin 100 Hydra 250 Dragon 500
