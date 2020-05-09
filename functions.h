@@ -53,6 +53,9 @@ void move(string s, int *a, int *b, int *c, int *d){
         if(*a<0){
             *a=0;
         }
+        if(*a>500){
+            a=500;
+        }
     }
     else if(s=="2"){
         *b+=20;
