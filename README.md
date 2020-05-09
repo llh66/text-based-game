@@ -41,11 +41,16 @@ Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before th
 - Generation of random game sets or events:
   - The monster will randomly choose a move. It will also choose skills when it has enough MP.
 - Data structures for storing game status:
-  - Will change the hp of player and store in the file after a stage. 
-  
-5.Data validation
+  - Will change the hp of player and store in the file after a stage.  
+- If player's Hp drop to 0, player will lose.
+- If player kills all monsters, player wins. 
+5. Data validation
 - The program will require the user input the data again if the previously input data is out of the given range.
 - The program will require the user choose the action again if some conditions of the previous choice aren't satisfied.
+
+6. Play again
+- After a game, the player can choose to play the whole game again, or exit the game.
+- Choose 1 to play again and 2 to exit. 
 
 #### non-standard C/C++ libraries: 
 No
