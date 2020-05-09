@@ -221,6 +221,9 @@ int stage(int n){
     if(num-1!=n){//when not the last stage
         cout<<"You win, MP rises 20"<<endl;
         pmp+=20;
+        if(pmp>500){
+            pmp=500;
+        }
         cout<<pname<<": "<<php<<"/500 HP "<<pmp<<"/500 MP"<<endl;
         cout<<"You gained "<<exp<<" exp. , please choose to convert into 1. "<<exp<<" HP 2. "<<exp<<" MP: ";
         cin>>s;
