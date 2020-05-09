@@ -48,4 +48,4 @@ No
 2. Every turn the player needs to choose his move by typing 1,2,3 or 4,whose corresponding action is attack,rest, healing and skill attack.
 Among them,healing and skill attack require for enough Mp.
 3. After the end of the game,you can choose to replay the game.
-4. Compile with "Make main" and run with "./main" in terminal.
+4. Compile with "make main", clean files with "make clean", and run with "./main" in terminal.
