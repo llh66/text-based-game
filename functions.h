@@ -43,7 +43,7 @@ int start(){
     return 0;
 }
 /*The funtion is used to control the player action.Four number stands for different action and if player input other number, the program will
-require pplayer to input again.Input:player's inputed number,output:the change in MP,HP and the monster's HP*/
+require player to input again.Input:player's inputed number,output:the change in MP,HP and the monster's HP*/
 void move(string s, int *a, int *b, int *c, int *d){
     if(s=="1"){
         *c-=20;
