@@ -7,10 +7,10 @@ another number.The output is the user replay the game or stop it.*/
 int main(){
     string again;
     start();
-    cout<<"Play again (1. Yes 2. No)? ";
+    cout<<"Play again (1. Yes 2. No)? ";//can play game again
     cin>>again;
     while(again!="1"&&again!="2"){
-        cout<<"Please enter 1 or 2 (1. Yes 2. No): ";
+        cout<<"Please enter 1 or 2 (1. Yes 2. No): ";//re-input for invalid input
         cin>>again;
     }
     while(again=="1"){
