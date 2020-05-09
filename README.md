@@ -24,17 +24,17 @@ Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before th
   - Get the Hp and Mp, display from a file with player's status.
   - Read the player and monster to determine the winner of the battle.
 - Data structures for storing game status:
-  - Use 2-d array to store hp and attack power of every monster.
-  - Use another array to store hp and mp of player. 
+  - Use string array to store hp and attack power of every monster temporary.
 - Program codes in multiple files:
   - Display function will be stored in another file to be reused while the main function will run the battle. 
 - Dynamic memory management:
-  - Release the storage of the array after displayed. Only store the data of current stage. 
+  - Release the storage of the array of monsters data after displayed. Only store the data of current stage's monster. 
 
 3. Insert player's move
   - Player will choose between normal attack,rest and recover and skill attack by input certain data. 
+  - Depending on player's MP, recover and skill attack may be unavailable.
 - Data structures for storing game status:
-  - Will change the hp of a monster and store in the array. 
+  - May change the hp of a monster and store in the array. 
   - May change the mp and hp of player and store in the array. 
 
 4. Generate monster's move
