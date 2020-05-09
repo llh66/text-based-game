@@ -2,7 +2,8 @@
 #include <fstream>
 #include <string>
 using namespace std;
-//this function is to let the player 
+/*this function is to let the player input his name and define whether the adventure is a success or a faliure. Input is the player name,
+output is the outcome of the adventure*/
 void start(){
     string name;
     int n;
@@ -23,6 +24,8 @@ void start(){
     }
     cout<<"You beat all monsters, congratulations!"<<endl;
 }
+/*This function is to read the state of the player and the monster in the n+1 turn.It's input is the turn number-1,the output is the 
+introduction of the both side of the battle*/
 int stage(int n){
     int end;
     int win;
