@@ -3,6 +3,8 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
 using namespace std;
 int stage(int);
 void story(int);
@@ -248,3 +250,4 @@ int stage(int n){
     }
     return 1;
 }
+#endif
