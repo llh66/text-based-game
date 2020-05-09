@@ -18,28 +18,32 @@ Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before th
 
 2. Display stage status
 - File input/output:
-  - Get the data and display from a file with monsters' status according to different game stages.
-  - Get the data and display from a file with player's status.
+  - Get the Hp and name of the monster,display from a file with monsters' status according to different game stages.
+  - Get the Hp and Mp, display from a file with player's status.
+  - Read the player and monster to determine the winner of the battle.
 - Data structures for storing game status:
   - Use 2-d array to store hp and attack power of every monster.
   - Use another array to store hp and mp of player. 
 - Program codes in multiple files:
-  - Display function will be stored in another file to be reused. 
+  - Display function will be stored in another file to be reused while the main function will run the battle. 
 - Dynamic memory management:
   - Release the storage of the array after displayed. Only store the data of current stage. 
 
 3. Insert player's move
-  - Player will choose between normal attack and skill. 
+  - Player will choose between normal attack,rest and recover and skill attack by input certain data. 
 - Data structures for storing game status:
   - Will change the hp of a monster and store in the array. 
-  - May change the mp of player and store in the array. 
+  - May change the mp and hp of player and store in the array. 
 
 4. Generate monster's move
 - Generation of random game sets or events:
   - The monster will randomly choose a move. It will also choose skills when it has enough MP.
 - Data structures for storing game status:
   - Will change the hp of player and store in the array. 
- 
+  
+5.Data validation
+-the program will require the user input the data again if the previously input data is out of the given range.
+-the program will require the user choose the action again if some conditions of the previous choice aren't satisfied.
 
 #### non-standard C/C++ libraries: 
 No
