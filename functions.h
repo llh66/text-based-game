@@ -182,15 +182,15 @@ int stage(int n){
         cout<<"End of the round, MP rises 20"<<endl;
         pmp+=20;
         mmp+=20;
-        cout<<pname<<": "<<php<<"/500 HP "<<pmp<<"/500 MP"<<endl;
-        cout<<mname<<": "<<mhp<<"/500 HP "<<mmp<<"/500 MP"<<endl;
-        cout<<endl;
         if(pmp>500){
             pmp=500;
         }
         if(mmp>500){
             mmp=500;
         }
+        cout<<pname<<": "<<php<<"/500 HP "<<pmp<<"/500 MP"<<endl;
+        cout<<mname<<": "<<mhp<<"/500 HP "<<mmp<<"/500 MP"<<endl;
+        cout<<endl;
         cout<<"Adventurer "<<pname<<", please choose a move (1. Attack (20 damage) 2. Rest (+20 MP)";
         if(pmp<50){
             cout<<"): ";
