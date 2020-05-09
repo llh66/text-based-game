@@ -42,8 +42,8 @@ Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before th
   - Will change the hp of player and store in the array. 
   
 5.Data validation
--the program will require the user input the data again if the previously input data is out of the given range.
--the program will require the user choose the action again if some conditions of the previous choice aren't satisfied.
+- The program will require the user input the data again if the previously input data is out of the given range.
+- The program will require the user choose the action again if some conditions of the previous choice aren't satisfied.
 
 #### non-standard C/C++ libraries: 
 No
