@@ -13,7 +13,7 @@ Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before th
 #### A list of features / functions to implement:
 
 1. Insert player's name
-Ask for player's name and initialize player's HP and MP. Then store name, HP, and MP into "player.txt".
+  - Ask for player's name and initialize player's HP and MP. Then store name, HP, and MP into "player.txt".
 - File input/output:
   - Store players name in a file of player status. 
 
