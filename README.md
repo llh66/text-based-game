@@ -18,6 +18,7 @@ Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before th
   - Store players name in a file of player status. 
 
 2. Display stage status
+  - Display status of player and monster in stages and rounds.
 - File input/output:
   - Get the Hp and name of the monster,display from a file with monsters' status according to different game stages.
   - Get the Hp and Mp, display from a file with player's status.
