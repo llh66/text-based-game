@@ -12,7 +12,7 @@ int start(){
     string name, s;
     int n;
     ifstream fin;
-    fin.open("Crossing-discription.txt");
+    fin.open("Crossing-discription.txt");//output backgroud
     while(fin>>s){
         if(s=="End"){
             break;
@@ -73,7 +73,7 @@ void story(int n){
     ifstream fin;
     cout<<endl;
     fin.open("Crossing-discription.txt");
-    for(int i =0;i<n+1;i++){
+    for(int i =0;i<n+1;i++){//skip backgroud for previos stages
         while(fin>>s){
             if(s=="End"){
                 break;
@@ -93,7 +93,7 @@ void story(int n){
 int stage(int n){
     int exp;
     string pname,mname;
-    int php,pmp,mhp,mmp=0;
+    int php,pmp,mhp,mmp=0;//hp, mp of player, monsters
     ifstream fin;
     int num;
     string s;
@@ -110,7 +110,7 @@ int stage(int n){
     mhp=mhps[n];
     mname=mnames[n];
     exp=mhp/2;
-    delete[] mnames;
+    delete[] mnames;//release dynamic storage
     delete[] mhps;
     story(n);
     cout<<pname<<": "<<php<<"/500 HP "<<pmp<<"/500 MP"<<endl;
@@ -120,7 +120,7 @@ int stage(int n){
     if(pmp<50){
         cout<<"): ";
         cin>>s;
-        while(s!="1"&&s!="2"){
+        while(s!="1"&&s!="2"){//data validation
             cout<<"Please enter 1 or 2: ";
             cin>>s;
         }
@@ -218,7 +218,7 @@ int stage(int n){
         cout<<mname<<": "<<mhp<<"/500 HP "<<mmp<<"/500 MP"<<endl;
         cout<<endl;
     }
-    if(num-1!=n){
+    if(num-1!=n){//when not the last stage
         cout<<"You win, MP rises 20"<<endl;
         pmp+=20;
         cout<<pname<<": "<<php<<"/500 HP "<<pmp<<"/500 MP"<<endl;
@@ -246,7 +246,7 @@ int stage(int n){
         fout.close();
     }
     else{
-        story(n+1);
+        story(n+1);//story line when winning
     }
     return 1;
 }
