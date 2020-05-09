@@ -38,3 +38,12 @@ This game is an RPG game, in which player will act as an adventurer and try to d
   - The monster may have a larger possibility to choose normal attack and a smaller possibility to choose skill attack. 
 - Data structures for storing game status:
   - Will change the hp of player and store in the array. 
+ 
+
+#### non-standard C/C++ libraries: 
+No
+#### Compilation and execution instructions:
+1.Player needs to make a name for his adventurer (less than 20 letters)
+2.Every turn the player needs to choose his move by typing 1,2,3 or 4,whose corresponding action is attack,rest, healing and skill attack.
+Among them,healing and skill attack require for enough Mp.
+3.After the end of the game,you can choose to replay the game.
