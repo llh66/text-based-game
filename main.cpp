@@ -2,6 +2,8 @@
 #include <string>
 #include"functions.cpp"
 using namespace std;
+/*This function is used to let player replay the game after the one trial is end.Input is 1. Yes or 2. No,and the program will require you to 
+input again if you input another number.The output is you replay the game or stop it.*/
 int main(){
     string again;
     start();
