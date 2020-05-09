@@ -2,6 +2,8 @@
 #include <string>
 #include"functions.h"
 using namespace std;
+/*This function is used to let the player replay the game. The input is 1(yes) or 2 (No).the program will let user input again if he input 
+another number.The output is the user replay the game or stop it.*/
 int main(){
     string again;
     start();
