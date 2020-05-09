@@ -7,7 +7,8 @@ Group no.: 148
 - Jiang Xingjian (3035637759)
 
 #### A game description whith game rule:
-This game is an RPG game, in which player will act as an adventurer and try to defeat the monsters during the adventure.Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before the adventure, player can choose his skill from a given skill list. During the battle, player and monster will take turns taking action. In player’s turn, player have 3 choices: normal attack (cause a small amount of damage and won’t consume MP), rest (recover some MP), and using skill (consume MP, will cause lots of damage or recover some HP). After the battle, player will get EXP and choose to recover part of HP or MP. If player’s HP become less than 0, the adventure will end as a failure. After some battles, the adventure will end as a success.
+This game is an RPG game, in which player will act as an adventurer and try to defeat the monsters during the adventure. 
+Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before the adventure, player can choose his skill from a given skill list. During the battle, player and monster will take turns taking action. In player’s turn, player have 3 choices: normal attack (cause a small amount of damage and won’t consume MP), rest (recover some MP), and using skill (consume MP, will cause lots of damage or recover some HP). After the battle, player will get EXP and choose to recover part of HP or MP. If player’s HP become less than 0, the adventure will end as a failure. After some battles, the adventure will end as a success.
 
 #### A list of features / functions to implement:
 
@@ -35,7 +36,7 @@ This game is an RPG game, in which player will act as an adventurer and try to d
 
 4. Generate monster's move
 - Generation of random game sets or events:
-  - The monster may have a larger possibility to choose normal attack and a smaller possibility to choose skill attack. 
+  - The monster will randomly choose a move. It will also choose skills when it has enough MP.
 - Data structures for storing game status:
   - Will change the hp of player and store in the array. 
  
