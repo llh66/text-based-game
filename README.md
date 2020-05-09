@@ -41,7 +41,7 @@ Player will have Hit Point (HP), Mana Point (MP) and Experience (EXP). Before th
 - Generation of random game sets or events:
   - The monster will randomly choose a move. It will also choose skills when it has enough MP.
 - Data structures for storing game status:
-  - Will change the hp of player and store in the array. 
+  - Will change the hp of player and store in the file after a stage. 
   
 5.Data validation
 - The program will require the user input the data again if the previously input data is out of the given range.
